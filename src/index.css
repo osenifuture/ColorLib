@@ -88,7 +88,7 @@ code {
 @media screen and (max-width:650px) {
   .nav-con{
     display: none;
-    background-color: red;
+    
   }
   
   .mobile-menu{
@@ -133,4 +133,27 @@ code {
     background-color: lightgray;
   }
 
+}
+
+
+@media screen and (max-width:768px) {
+  .nav-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+  }
+
+  .nav-con{
+    width: 40%;
+    height: fit-content;
+  }
+  
+  .link{
+    font-size: 10px;
+   margin-left: 20px;
+  }
+  
+  
 }

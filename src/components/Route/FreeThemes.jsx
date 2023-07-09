@@ -2,7 +2,7 @@
 const FreeThemes = () => {
     return(
         <div>
-            <p>THIS IS FREETHEMES PAGE</p>
+            <p style={{color: 'black',marginTop: '60px', textAlign: 'center'}}>THIS IS FREETHEMES PAGE</p>
         </div>
     )
 };

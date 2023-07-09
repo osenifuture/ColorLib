@@ -117,7 +117,7 @@
 
 .premium-con{
     width: 100%;
-    height: 500px;
+    height: 700px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -130,28 +130,30 @@
   .home-container1 {
     width: 100%;
     padding: 10px;
-    
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 400px;
 }
 
 .color-con{
-    width: 90%;
+   display: none;
 }
 
 .color-con > h1 {
       text-align: center;
-      font-size: 60px;
-      margin-left: 15px;
+      font-size: 30px;
+    
   }
 
   .dot{
-     margin-bottom: 40px;
-     width: 5px;
-     height: 5px;
+    display: none;
      
   }
 
   .box-2 > p {
-    font-size: 15px;
+    font-size: 17.5px;
+    text-align: center;
   }
 
   .theme-con{
@@ -168,16 +170,25 @@
     grid-template-columns: repeat(1, 9fr);
   }
 
-   .h-premium{
-    font-size: 120px;
-  }
+  
   .premium-con{
     width: 100%;
     height: fit-content;
-    padding: 10px;
+    padding:0px 10px;  
   }
 
 }
+
+@media screen and (max-width:768px) {
+  .color-con{
+    width: 63%;
+    
+  }
+  
+}
+
+  
+
 
 .simplicity-con{
     width: 90%;
@@ -212,51 +223,113 @@
         width: 100%;
         height: fit-content;
     }
-    
+
+    .mother-simplecon{
+      width: 100%;
+    }
 }
 
+.footer-container1{
+  width: 100%;
+  height: 200px;
+  background-color: rgb(95, 55, 133);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+  padding: 5px;
+  margin-top: 60px;
 
-.footer-con{
-    width: 100%;
-    height: fit-content;
-    background-color: rgb(95, 55, 133) ;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 10px;
-    
-    
-    
-    
 }
 
-.footer-info{
-    width: 10%;
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    padding-top: 20px;
+.foot-linkcon{
+  display: flex;
+  gap: 5px;
+  margin-top: 10px;
+  width: 80%;
 }
 
-.footer-link{
-    color: white;
-    text-decoration: none;
+.foot-link{
+  color: grey;
+  text-decoration: none;
+  background-color: rgb(204, 170, 237);
+  width: 100%;
+  text-align:center;
+  font-size: 14px;
+}
+
+.foot-link:hover{
+  color: white;
 }
 
 @media screen and (max-width:650px) {
-    .footer-con{
-        width: 100%;
-        margin-top: 950px;
-        display: grid;
-        grid-template-columns: repeat(2, 3fr);
-        padding: 0px 10px;
-    }
-
-    .footer-info{
-        width: 100%;
-        height: fit-content;
-    }
-    
+  .footer-container1{
+    width: 100%;
+    margin-top: 1050px;
+    height: fit-content;
+    gap: 15px;
+  }
+  
+  .foot-linkcon{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 4fr);
+    padding: 10px;
+  }
+  
+  
+  
+  .foot-link{
+    font-size: smaller;
+  }
 }
+
+
+.premium-linkcon{
+  width: 100%;
+  height: fit-content;
+  gap: 10px;
+  padding:0px 50px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link-box{
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 5px;
+  padding: 5px;
+  color: white;
+}
+
+.premium-linkcon ul li {
+  color: black;
+  font-size: 15px;
+  
+}
+
+
+@media screen and (max-width:650px) {
+  .premium-linkcon{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 4fr);
+  }
+
+  .link-box{
+    width: 100%;
+  }
+  
+}
+
+
+
+
+  
+

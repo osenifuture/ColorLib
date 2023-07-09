@@ -2,7 +2,7 @@
 const WebsiteTemplate = () => {
     return(
         <div>
-            <h1 style={{color: 'black'}}>TYHI IS WEBSITE-TEMPLATE PAGE</h1>
+            <h1 style={{color: 'black',marginTop: '60px', textAlign: 'center'}}>TYHI IS WEBSITE-TEMPLATE PAGE</h1>
         </div>
     )
 };
