@@ -125,50 +125,50 @@ const NaturesComponent = () => {
             </div>
             <div className="link-box">
               <ul>
-              <li> <Link>Creative</Link></li>
-              <li>  <Link>Directive</Link></li>
-              <li>  <Link>Eco & Green</Link></li>
-              <li>  <Link>eCommerce</Link></li>
-              <li>  <Link>Education</Link></li>
-              <li> <Link>Fashion</Link></li>
-              <li>  <Link>Fatest</Link></li>
-              <li> <Link>Feminine</Link></li>
-              <li> <Link>Fitness & Gym</Link></li>
-              <li> <Link>Fullscreen and FullPage</Link></li>
-              <li>  <Link>Grid</Link></li>
-              <li> <Link>Health & Medical</Link></li>
+              <li> <Link className="prem-link">Creative</Link></li>
+              <li>  <Link className="prem-link">Directive</Link></li>
+              <li>  <Link className="prem-link">Eco & Green</Link></li>
+              <li>  <Link className="prem-link">eCommerce</Link></li>
+              <li>  <Link className="prem-link">Education</Link></li>
+              <li> <Link className="prem-link">Fashion</Link></li>
+              <li>  <Link className="prem-link">Fatest</Link></li>
+              <li> <Link className="prem-link">Feminine</Link></li>
+              <li> <Link className="prem-link">Fitness & Gym</Link></li>
+              <li> <Link className="prem-link">Fullscreen and FullPage</Link></li>
+              <li>  <Link className="prem-link">Grid</Link></li>
+              <li> <Link className="prem-link">Health & Medical</Link></li>
               </ul>
             </div>
 
             <div className="link-box">
               <ul>
-              <li>  <Link>Hosting</Link></li>
-              <li> <Link>Hotel</Link></li>
-              <li>   <Link>Job Board</Link></li>
-              <li>   <Link>Landing Page</Link></li>
-              <li>  <Link>Lawyer</Link></li>
-              <li>  <Link>Magazine</Link></li>
-              <li>  <Link>MultiPurpose</Link></li>
-              <li>  <Link>Music</Link></li>
-              <li>  <Link>Night Club</Link></li>
-              <li>  <Link>One Page </Link></li>
-              <li>  <Link>Prallax Scrolling</Link></li>
+              <li>  <Link className="prem-link">Hosting</Link></li>
+              <li> <Link className="prem-link">Hotel</Link></li>
+              <li>   <Link className="prem-link">Job Board</Link></li>
+              <li>   <Link className="prem-link">Landing Page</Link></li>
+              <li>  <Link className="prem-link">Lawyer</Link></li>
+              <li>  <Link className="prem-link">Magazine</Link></li>
+              <li>  <Link className="prem-link">MultiPurpose</Link></li>
+              <li>  <Link className="prem-link">Music</Link></li>
+              <li>  <Link className="prem-link">Night Club</Link></li>
+              <li>  <Link className="prem-link">One Page </Link></li>
+              <li>  <Link className="prem-link">Parallax Scrolling</Link></li>
               </ul>
             </div>
 
             <div className="link-box">
               <ul>
-              <li>  <Link>Photograph</Link></li>
-              <li>  <Link>Popular</Link></li>
-              <li>  <Link>Portfolio</Link></li>
-              <li>   <Link>Real Estate</Link></li>
-              <li>  <Link>Resume</Link></li>
-              <li>   <Link>Restaurant</Link></li>
-              <li>  <Link>SEO Friendly</Link></li>
-              <li> <Link>Simple</Link></li>
-                  <li>   <Link>SPA & Salon</Link></li>
-                  <li>  <Link>Tech Startup</Link></li>
-                  <li>  <Link>Travel</Link></li>
+              <li>  <Link className="prem-link">Photograph</Link></li>
+              <li>  <Link className="prem-link">Popular</Link></li>
+              <li>  <Link className="prem-link">Portfolio</Link></li>
+              <li>   <Link className="prem-link">Real Estate</Link></li>
+              <li>  <Link className="prem-link">Resume</Link></li>
+              <li>   <Link className="prem-link">Restaurant</Link></li>
+              <li>  <Link className="prem-link">SEO Friendly</Link></li>
+              <li> <Link className="prem-link">Simple</Link></li>
+                  <li>   <Link className="prem-link">SPA & Salon</Link></li>
+                  <li>  <Link className="prem-link">Tech Startup</Link></li>
+                  <li>  <Link className="prem-link">Travel</Link></li>
               </ul>
             </div>
         </div>

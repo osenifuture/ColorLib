@@ -215,6 +215,7 @@
 @media screen and (max-width:650px) {
     .simplicity-con{
         width: 100%;
+        height: fit-content;
         display: grid;
         grid-template-columns: repeat(1, 3fr);
     }
@@ -266,7 +267,7 @@
 @media screen and (max-width:650px) {
   .footer-container1{
     width: 100%;
-    margin-top: 1050px;
+   
     height: fit-content;
     gap: 15px;
   }
@@ -290,7 +291,7 @@
   width: 100%;
   height: fit-content;
   gap: 10px;
-  padding:0px 50px;
+  padding:0px 45px;
   margin-top: 40px;
   display: flex;
   justify-content: center;
@@ -303,7 +304,6 @@
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  gap: 5px;
   padding: 5px;
   color: white;
 }
@@ -311,7 +311,11 @@
 .premium-linkcon ul li {
   color: black;
   font-size: 15px;
-  
+  line-height: 23px;
+}
+
+.premium-linkcon ul li .prem-link{
+  color:cornflowerblue;
 }
 
 
